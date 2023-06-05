@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS `gnm9x_layout_route` (
   `store_id` int(11) NOT NULL,
   `route` varchar(64) NOT NULL,
   PRIMARY KEY (`layout_route_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=54 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=55 DEFAULT CHARSET=utf8;
 
 --
 -- Дамп данных таблицы `gnm9x_layout_route`
@@ -26,8 +26,8 @@ INSERT INTO `gnm9x_layout_route` (`layout_route_id`, `layout_id`, `store_id`, `r
 (32, 9, 0, 'information/sitemap'),
 (34, 4, 0, ''),
 (38, 6, 0, 'account/%'),
-(42, 1, 0, 'common/home'),
 (44, 3, 0, 'product/category'),
 (45, 5, 0, 'product/manufacturer'),
 (52, 12, 0, 'product/compare'),
-(53, 13, 0, 'product/search');
+(53, 13, 0, 'product/search'),
+(54, 1, 0, 'common/home');

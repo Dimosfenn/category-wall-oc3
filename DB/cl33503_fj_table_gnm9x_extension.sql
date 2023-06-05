@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS `gnm9x_extension` (
   `type` varchar(32) NOT NULL,
   `code` varchar(32) NOT NULL,
   PRIMARY KEY (`extension_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=44 DEFAULT CHARSET=utf8;
 
 --
 -- Дамп данных таблицы `gnm9x_extension`
@@ -57,4 +57,5 @@ INSERT INTO `gnm9x_extension` (`extension_id`, `type`, `code`) VALUES
 (39, 'report', 'customer_activity'),
 (40, 'report', 'customer_order'),
 (41, 'report', 'customer_reward'),
-(42, 'advertise', 'google');
+(42, 'advertise', 'google'),
+(43, 'module', 'category_wall');
